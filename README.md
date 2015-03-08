@@ -24,4 +24,4 @@ Write allows you to create and edit journal entries directly from the command li
 
     $ write
 
-Just write. It's that simple.
+Just write. It's embaressingly simple.
