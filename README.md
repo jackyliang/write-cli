@@ -9,16 +9,16 @@ Write allows you to create and edit journal entries directly from the command li
 
 1. Clone it
 
-    git clone https://github.com/jackyliang/write-cli.git
+    `git clone https://github.com/jackyliang/write-cli.git`
     
 2. Open `write-cli.sh` and edit your default editor and save path
 
-    alias EDITOR="vi"
-    SAVE_PATH="$HOME/Desktop/Entries"
+    `alias EDITOR="vi"`
+    `SAVE_PATH="$HOME/Desktop/Entries"`
 
 3. Optional but recommended aliasing
 
-    alias write=". ~/write-cli/write-cli.sh"
+    `alias write=". ~/write-cli/write-cli.sh"`
 
 ### Usage
 
