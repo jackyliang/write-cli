@@ -16,7 +16,7 @@ Write allows you to create and edit journal entries directly from the command li
     `alias EDITOR="vi"`
     `SAVE_PATH="$HOME/Desktop/Entries"`
 
-3. Optional but recommended aliasing
+3. Optional but recommended aliasing in your `.profile`
 
     `alias write=". ~/write-cli/write-cli.sh"`
 
