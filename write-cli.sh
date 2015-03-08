@@ -5,7 +5,7 @@
 # Please set your default editor and save path
 alias EDITOR="DYLD_FORCE_FLAT_NAMESPACE=1 ~/Applications/MacVim.app/Contents/MacOS/Vim"
 # Set the save path 
-SAVE_PATH="$HOME/Desktop/" 
+SAVE_PATH="$HOME/Desktop/Write/" 
 
 ### End User Configs
 
@@ -15,8 +15,8 @@ NOW_FILE=$(date +"%B_%d_%Y")
 # Date used within the entry
 NOW_STRING=$(date +"%B %d %Y %r") 
 
-# Output the date to the file 
-echo $NOW_STRING > $SAVE_PATH$NOW_FILE.txt 
+# Append the date to the file 
+echo "$NOW_STRING" >> "$SAVE_PATH$NOW_FILE.txt" 
 
 # Open the text editor
-EDITOR $SAVE_PATH$NOW_FILE.txt
+EDITOR "$SAVE_PATH$NOW_FILE.txt"
