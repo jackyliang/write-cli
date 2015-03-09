@@ -13,7 +13,7 @@ SAVE_PATH="$HOME/Desktop/Write/"
 NOW_FILE=$(date +"%B_%d_%Y") 
 
 # Date used within the entry i.e. July 13 1993 1:00 PM Sunday
-NOW_STRING=$(date +"%B%e %Y%l:%M %p %A") 
+NOW_STRING=$(date +"%B %e %Yi %l:%M %p %A") 
 
 # Append the date to the file so previous entries are not overridden 
 echo "$NOW_STRING" >> "$SAVE_PATH$NOW_FILE.txt" 
